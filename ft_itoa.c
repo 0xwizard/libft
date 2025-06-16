@@ -33,8 +33,8 @@ static int	ft_nsize(int n)
 static void	ft_fill(int n, char *new)
 {
 	int	i;
+	int	isneg;
 
-	int isneg;
 	i = ft_nsize(n);
 	isneg = 0;
 	if (n < 0)

@@ -80,13 +80,10 @@ char	**ft_split(char const *s, char c)
 	if (!s)
 		return (NULL);
 	slen = ft_wordcount(s, c);
-	// if (!ft_wordcount(s,c))
-	// 	return (NULL);
 	new = ft_calloc(sizeof(char *), slen + 1);
 	if (!new)
 		return (NULL);
 	if (!ft_fill(s, c, new))
 		return (NULL);
-	// new[slen + 1] = NULL;
 	return (new);
 }

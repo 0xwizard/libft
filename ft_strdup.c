@@ -17,14 +17,10 @@ char	*ft_strdup(const char *s)
 	char	*dup;
 	size_t	slen;
 
-	//	size_t	i;
 	slen = ft_strlen(s);
 	dup = malloc(slen + 1);
 	if (!dup)
 		return (NULL);
-	// i = -1;
-	// while (s[++i])
-	// dup[i] = s[i];
 	ft_memcpy(dup, s, slen + 1);
 	return (dup);
 }

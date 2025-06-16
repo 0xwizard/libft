@@ -20,7 +20,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 
 	dstlen = ft_strlen(dst);
 	srclen = ft_strlen(src);
-	if (size <= dstlen) // if given value is lesser than destination length
+	if (size <= dstlen)
 		return (size + srclen);
 	i = 0;
 	if (size == 0)
