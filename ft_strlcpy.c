@@ -32,13 +32,4 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	}
 	return (len);
 }
-/*
-#include <stdio.h>
-#include <string.h>
 
-int	main(void)
-{
-	char *arr = "HakanHakanHakanHakan";
-	char dst[11] = "0123456789";
-	printf("%ld\n", strlcpy(dst, arr, 11));
-}*/

@@ -25,15 +25,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		*new ++ = *source++;
 	return (dest);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	int  arr1[] = {1,44, 3,4};
-	char *arr = "Hakağğasdn";
-	int	dst[4];
-	ft_memcpy(dst, arr1, 16);
-	for (int i = 0; i < 4; i++)
-		printf("%d,", dst[i]);
-}*/

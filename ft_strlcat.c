@@ -33,14 +33,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[i + dstlen] = '\0';
 	return (dstlen + srclen);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-
-int	main(void)
-{
-	char arr[] = "sari";
-	char dst[10] = "hakanhaka";
-	printf("%ld", ft_strlcat(dst, arr, sizeof(dst)));
-//	printf("ORJ : %ld", strlcat(dst, arr, 8));
-}*/

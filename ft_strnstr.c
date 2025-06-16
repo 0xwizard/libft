@@ -33,13 +33,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char *b = "Hakan";
-	char *c = "ka";
-	printf("%s", ft_strnstr(b, c, 4));
-
-}*/

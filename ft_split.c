@@ -64,10 +64,7 @@ static char	**ft_fill(char const *s, char c, char **new)
 			len++;
 		new[x] = ft_substr(s, i, len);
 		if (!new[x])
-		{
-			ft_free(new);
-			return (NULL);
-		}
+			return (ft_free(new), NULL);
 		i += len;
 		while (s[i] == c)
 			i++;

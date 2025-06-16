@@ -36,11 +36,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (sign * res);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char	*ptr = "	-1";
-	printf("%d", ft_atoi(ptr));
-}*/

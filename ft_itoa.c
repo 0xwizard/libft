@@ -34,15 +34,13 @@ static void	ft_fill(int n, char *new)
 {
 	int	i;
 
-	int isneg; // boolean loop for if negative is = 1, if not = 0
+	int isneg;
 	i = ft_nsize(n);
 	isneg = 0;
 	if (n < 0)
 	{
 		n *= -1;
-		// control sequence for the case where n < 0 for making it positive
 		isneg = 1;
-		// if the number is negative this will represent number is negative
 	}
 	new[i] = '\0';
 	i--;
@@ -61,7 +59,6 @@ char	*ft_itoa(int n)
 	char	*new;
 
 	if (n == -2147483648)
-		// new = ft_strdup("-2147483648");
 		return (ft_strdup("-2147483648"));
 	new = (char *)malloc(sizeof(char) * ft_nsize(n) + 1);
 	if (!new)
@@ -69,13 +66,3 @@ char	*ft_itoa(int n)
 	ft_fill(n, new);
 	return (new);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	int	a;
-
-// 	a = 0;
-// 	printf("%s", ft_itoa(a));
-// }

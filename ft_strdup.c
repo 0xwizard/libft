@@ -28,15 +28,3 @@ char	*ft_strdup(const char *s)
 	ft_memcpy(dup, s, slen + 1);
 	return (dup);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-
-int	main(void)
-{
-	char *dst;
-	char *src = "Hakan";
-
-	dst = ft_strdup(src);
-	printf("%s", dst);
-}*/

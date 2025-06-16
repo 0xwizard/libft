@@ -30,18 +30,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (*str1 - *str2);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-
-int	main(void)
-{
-	char *arr = "abcdefghij";
-	char *arr2= "abcdefgxyz";
-	//int arr[] = {1,2,3,4};
-	//int arr2[] = {1,2,5,4};
-	//char *arr = "hakan";
-	//char *arr2 = "";
-	printf("MINE : %d\n", ft_memcmp(arr, arr2, 9));
-	printf("ORJ FNC : %d", memcmp(arr, arr2, 9));
-}*/

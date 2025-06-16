@@ -31,12 +31,3 @@ char	*ft_strchr(const char *s, int c)
 		return (&res[i]);
 	return (NULL);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char *src = "Hakan";
-	printf("%p\n", src);
-	printf("%p", ft_strchr(src, '\0'));
-}*/

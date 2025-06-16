@@ -29,11 +29,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char *arr = "Hakan";
-	printf("%s", ft_strrchr(arr, 'a'));
-}*/

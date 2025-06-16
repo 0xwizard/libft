@@ -27,16 +27,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-
-int	main(void)
-{
-	int arr[5] = {1,2,3,4,5};
-	//char *ptr = "Hakan";
-	ft_memchr(arr, 3, 16);
-	printf("ORJ FNC: %p\n", memchr(arr, 3, 16));
-	for (int i=0; i < 5; i++)
-		printf("%i %p\n", arr[i], arr+i);
-}*/

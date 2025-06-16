@@ -23,12 +23,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return ((unsigned char)*s1 - (unsigned char)*s2);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char *arr = "hakan";
-	char *arr2 = "hakand";
-	printf("%d", ft_strncmp(arr, arr2, 6));
-}*/

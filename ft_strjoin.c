@@ -40,12 +40,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	new[i] = '\0';
 	return (new);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char *src = "Hakan";
-	char *dst = "Sari";
-	printf("%s", ft_strjoin(src, dst));
-}*/

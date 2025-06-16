@@ -31,11 +31,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	new = ft_substr(s1, start, (end - start) + 1);
 	return (new);
 }
-
-/*
- #include <stdio.h>
- int	main(void)
- {
-		char *arr = "+++Hakan+++";
-		printf("%s", ft_strtrim(arr, "+"));
- }*/

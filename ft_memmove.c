@@ -43,16 +43,3 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	return (dst);
 }
 
-/*
- #include <stdio.h>
-
- int	main(void)
- {
-		int arr[16] = {1,2,3,4,5,9};
- //	ft_memcpy(arr+2, arr, 4);
- //	printf("%s",
-		ft_memmove(arr+2, arr, 16);
-		for (int i = 0; i < 6; i++)
-			printf("%d", arr[i]);
- }
- */

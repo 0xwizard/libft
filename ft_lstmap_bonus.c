@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstmap.c                                        :+:      :+:    :+:   */
+/*   ft_lstmap_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hsari <hsari@student.42istanbul.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/09 21:27:39 by hsari             #+#    #+#             */
-/*   Updated: 2025/06/10 19:37:35 by hsari            ###   ########.fr       */
+/*   Updated: 2025/06/16 18:05:42 by hsari            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,9 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	void	*content;
 	t_list	*node;
 
-	new = malloc(sizeof(t_list));
+	if (!lst)
+		return (NULL);
+	new = NULL;
 	while (lst)
 	{
 		content = f(lst->content);
