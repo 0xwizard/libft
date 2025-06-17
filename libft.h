@@ -6,7 +6,7 @@
 /*   By: hsari <hsari@student.42istanbul.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 15:42:41 by hsari             #+#    #+#             */
-/*   Updated: 2025/06/15 22:54:17 by hsari            ###   ########.fr       */
+/*   Updated: 2025/06/17 22:05:30 by hsari            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,6 @@
 # define LIBFT_H
 # include <stdlib.h>
 # include <unistd.h>
-
-typedef struct s_worker
-{
-	char	*name;
-	char	*surname;
-	int		age;
-}	t_worker;
 
 typedef struct s_list
 {
