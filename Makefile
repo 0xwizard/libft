@@ -64,7 +64,7 @@ fclean: clean
 
 re: fclean all
 
-bonus: $(OFILES) $(BFILES)
+bonus: $(BFILES) $(OFILES)
 	ar rcs $(NAME) $(OFILES) $(BFILES)
 
 .PHONY: all clean fclean re bonus

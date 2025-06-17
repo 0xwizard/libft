@@ -16,6 +16,13 @@
 # include <stdlib.h>
 # include <unistd.h>
 
+typedef struct s_worker
+{
+	char	*name;
+	char	*surname;
+	int		age;
+}	t_worker;
+
 typedef struct s_list
 {
 	void			*content;
